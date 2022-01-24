@@ -2,9 +2,9 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
-export default function Home() {
+export default function Contact() {
   return (
-    <Layout home>
+    <Layout contact>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -13,7 +13,7 @@ export default function Home() {
         className={`${utilStyles.headingMd} 
         ${utilStyles.padding1px}`}
       >
-        <h2 className={utilStyles.headingLg}>Home Page</h2>
+        <h2 className={utilStyles.headingLg}>Contact Page</h2>
       </section>
     </Layout>
   );
